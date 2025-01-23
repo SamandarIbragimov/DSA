@@ -20,7 +20,7 @@ namespace leetcode.easy
                 }
                 dict[nums[i]] = i;
             }
-            return new int[0];
+            throw new ArgumentException("No solution found");
         }
     }
 }
