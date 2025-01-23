@@ -8,7 +8,6 @@ namespace leetcode.easy
             for (int i = 0; i < nums.Length; i++)
             {
                 int diff = target - nums[i];
-
                 if(dict.ContainsKey(diff))
                 {
                     return new int[]{dict[diff],i};
