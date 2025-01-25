@@ -5,7 +5,6 @@ namespace leetcode.medium
         public string LongestPalindrome(string s) 
         {
             int l,r,length = 0, res_l = 0;
-
             for (var i = 0; i < s.Length; i++)
             {
                 l = i; r = i;
@@ -29,7 +28,6 @@ namespace leetcode.medium
                     }
                     l--; r++; 
                 }
-
             }
             return s.Substring(res_l,length);
         }
