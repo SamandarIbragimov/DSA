@@ -1,5 +1,4 @@
-namespace leetcode.helper
-{
+namespace leetcode.helper {
     public class TreeNode {
         public int val;
         public TreeNode left;
