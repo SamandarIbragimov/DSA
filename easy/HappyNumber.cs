@@ -12,11 +12,11 @@ namespace leetcode.easy {
             return true;
         }
 
-        private int Sum(int n){
+        private int Sum(int n) {
             var s = n.ToString();
             var sum = 0;
             int digit;
-            foreach(var c in s){
+            foreach(var c in s) {
                 digit = c - 48;
                 sum += digit * digit;
             }

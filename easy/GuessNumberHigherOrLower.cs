@@ -16,7 +16,7 @@ namespace leetcode.easy {
                 res = Guess(mid);
                 if (res == -1) {
                     r  = mid - 1;
-                } else if(res == 1){
+                } else if(res == 1) {
                     l = mid + 1;
                 } else {
                     break;
@@ -25,11 +25,10 @@ namespace leetcode.easy {
             return mid;
         }
 
-        private int Guess(int mid)
-        {
-            if (mid > pick){
+        private int Guess(int mid) {
+            if (mid > pick) {
                 return -1;
-            } else if(mid < pick){
+            } else if(mid < pick) {
                 return 1;
             } else {
                 return 0;

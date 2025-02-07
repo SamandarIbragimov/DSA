@@ -12,7 +12,7 @@ namespace leetcode.easy {
             }
             return result.ToString();
         }
-        private string calcRem(uint n){
+        private string calcRem(uint n) {
             switch(n){
                 case 15: return "f";
                 case 14: return "e";

@@ -5,7 +5,7 @@ namespace leetcode.easy {
         public bool HasCycle(ListNode head) {
             Dictionary<ListNode, bool> dict = new Dictionary<ListNode, bool>();
             while(head != null) {
-                if(dict.ContainsKey(head)){
+                if(dict.ContainsKey(head)) {
                     return true;
                 }
                 dict.Add(head,true);

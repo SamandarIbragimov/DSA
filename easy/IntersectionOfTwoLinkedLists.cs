@@ -8,8 +8,8 @@ namespace leetcode.easy {
                 visited.Add(headA,true);
                 headA = headA.next;
             }
-            while(headB != null){
-                if(visited.ContainsKey(headB)){
+            while(headB != null) {
+                if(visited.ContainsKey(headB)) {
                     return headB;
                 } else {
                     headB = headB.next;
