@@ -1,17 +1,13 @@
 using leetcode.helper;
 
-namespace leetcode.medium
-{
-    public class AddTwoNumbersClass
-    {
-        public ListNode AddTwoNumbers(ListNode l1, ListNode l2) 
-        {
+namespace leetcode.medium {
+    public class AddTwoNumbersClass {
+        public ListNode AddTwoNumbers(ListNode l1, ListNode l2) {
             ListNode dummyHead = new ListNode();
             ListNode current = dummyHead;
             int carry = 0;
 
-            while (l1 != null || l2 != null || carry != 0)
-            {
+            while (l1 != null || l2 != null || carry != 0) {
                 int val1 = (l1 != null) ? l1.val : 0;
                 int val2 = (l2 != null) ? l2.val : 0;
 
