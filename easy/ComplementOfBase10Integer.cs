@@ -6,7 +6,7 @@ namespace leetcode.easy {
             }
             int k = 1;
             while(k <= n) {
-                k = k << 1;
+                k <<= 1;
             }
             return (k-1)^n;
         }
